@@ -1,0 +1,8 @@
+@use "../abstracts/colors" as *;
+$primary: $primary-500;
+$secondary: $secondary-500;
+
+$theme-colors: (
+  "primary": $primary-500,
+  "secondary": $secondary-500,
+);

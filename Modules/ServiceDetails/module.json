@@ -1,0 +1,13 @@
+{
+    "name": "ServiceDetails",
+    "alias": "servicedetails",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ServiceDetails\\Providers\\ServiceDetailsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

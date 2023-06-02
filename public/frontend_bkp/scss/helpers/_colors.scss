@@ -1,0 +1,16 @@
+@use "../abstracts/colors" as colors;
+
+@each $color, $value in colors.$custom-colors {
+  .text-#{$color} {
+    color: $value;
+  }
+  .bg-#{$color} {
+    background-color: $value;
+  }
+}
+
+:root {
+    --main-nav-bg: var(--bs-secondary-700);
+    --main-nav-txt: var(--bs-white);
+    --black: black;
+}

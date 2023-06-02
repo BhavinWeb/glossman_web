@@ -1,0 +1,23 @@
+{
+    "Language": true,
+    "Currency": true,
+    "Category": true,
+    "Brand": true,
+    "Attribute": true,
+    "Product": true,
+    "Review": true,
+    "Coupon": true,
+    "Wishlist": true,
+    "Faq": true,
+    "Blog": true,
+    "Order": true,
+    "Slider": true,
+    "Location": true,
+    "Newsletter": true,
+    "Customer": true,
+    "SetupGuide": true,
+    "ShippingMethod": true,
+    "Service": true,
+    "ServiceDetails": true,
+    "Packages": true
+}

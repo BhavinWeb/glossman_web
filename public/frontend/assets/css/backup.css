@@ -1,0 +1,59 @@
+/* bhavin new css */
+
+.common-breadcrumbs{
+ 
+  padding-top: 85px!important;padding-bottom: 50px!important;
+
+}
+.common-breadcrumbs a{
+
+  color:white !important;
+
+}
+.common-breadcrumbs h1{
+
+  font-size: 3rem !important;
+
+}
+.breadcrumb .active{
+  color:white !important;
+}
+
+.h1-title-head{
+  font-size: 60px !important;
+  font-weight: 700;
+  color: #2a2a2a;
+  opacity: 1;
+}
+
+.filter-css .div{
+  border: 1px solid rgb(8, 7, 7);
+  text-align: center;
+  height: 74px;
+}
+
+.filter-css .div button{
+  margin-top: 18px;
+  color: #262626;
+  border: none;
+}
+
+.filter-css .div button{
+  margin-top: 18px;
+  color: #262626;
+}
+.filter-css .div button:hover{
+ background-color: rgba(255, 0, 0, 0) !important;
+}
+
+.filter-css .active button{
+  margin-top: 18px;
+  color: #ffffff !important;
+}
+
+.filter-css  .active{
+  border: 1px solid rgb(57, 18, 199)!important    ;
+  text-align: center;
+  height: 74px;
+  background-color: #5668d5;
+}

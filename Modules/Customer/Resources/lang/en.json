@@ -1,0 +1,16 @@
+{
+    "customer_list" : "Customer List",
+    "add_customer": "Add Customer",
+    "first_name" : "First Name",
+    "last_name" : "Last Name",
+    "email" : "Email",
+    "phone" : "Phone",
+    "add" : "Add",
+    "edit" : "Edit",
+    "edit_customer" : "Edit Customer",
+    "details" : "Details",
+    "secondary_email" : "Secondary Email",
+    "address" : "Address",
+    "shipping_address" : "Shipping Address",
+    "billing_address" : "Billing Address"
+}

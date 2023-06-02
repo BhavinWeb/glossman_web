@@ -1,0 +1,29 @@
+.breadcrumb{
+  margin: 0;
+  padding: 26px 0;
+  background: var(--bs-gray-50);
+    &__navigation{
+      &--text{
+        display: flex;
+        align-items: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        flex-wrap: wrap;
+        color: var(--bs-gray-600);
+        a{
+          .home{
+            margin-right: 8px;
+          }
+        }
+        .arrow{
+          margin: 0 8px;
+        }
+        .page-text{
+          @media (max-width:480px) {
+            padding: 3px 0;
+          }
+        }
+      }
+    }
+}

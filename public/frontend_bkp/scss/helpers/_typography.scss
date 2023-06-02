@@ -1,0 +1,43 @@
+@use "../abstracts/typography"as *;
+.text-14{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.text-20{
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 16px;
+  @media (min-width:480px) {
+    font-size: 20px;
+  }
+}
+.text-24{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.333333333333333;
+  @media (min-width:575px) {
+    font-size: 24px;
+  }
+}
+.text-40{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.2;
+  @media (min-width:575px) {
+    font-size: 30px;
+  }
+  @media (min-width:992px) {
+    font-size: 40px;
+  }
+}
+.section-title-block{
+  .title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.fw-500{
+  font-weight:500;
+}

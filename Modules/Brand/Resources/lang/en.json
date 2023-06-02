@@ -1,0 +1,19 @@
+{
+    "brand_list" : "Brand List",
+    "sl" : "SL",
+    "name" : "Name",
+    "created_date" : "Created Date",
+    "last_updated" : "Last Updated",
+    "actions" : "Actions",
+    "edit_brand" : "Edit Brand",
+    "delete_brand" : "Delete Brand",
+    "are_you_sure_want_to_delete_this_item" : "Are you sure want to delete this item?",
+    "brand" : "Brand",
+    "brand_edit" : "Brand Edit",
+    "create_brand" : "Create Brand",
+    "brand_name" : "Brand Name",
+    "enter_brand_name" : "Enter Brand Name",
+    "update_brand" : "Update Brand",
+    "add_brand" : "Add Brand",
+    "cancel" : "Cancel"
+}

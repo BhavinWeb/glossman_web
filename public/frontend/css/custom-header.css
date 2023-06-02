@@ -1,0 +1,32 @@
+@media (min-width: 992px) {
+  .modal-profile {
+      line-height: 2.5 !important;
+      top: 25px !important;
+      left: 500px !important;
+  }
+
+  .modal-profile-content {
+      width: 70% !important;
+      height: 530px !important;
+  }
+}
+
+
+.modal-profile-footer {
+  justify-content: flex-start !important;
+  border-top: none !important;
+}
+
+.modal-profile-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: none !important;
+}
+
+.span-border {
+  border-bottom: 1px solid #212529 !important;
+  width: 100%;
+}

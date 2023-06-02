@@ -1,0 +1,159 @@
+.best-deal-section-01{
+    position: relative;
+    padding: 72px 0;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+        @media (max-width:768px) {
+            flex-direction: column;
+        }
+    }
+    &__top-content{
+        display: flex;
+        align-items: center;
+        @media (max-width:575px) {
+            flex-direction: column;
+        }
+        .section-content{
+            margin-right: 24px;
+            @media (max-width:575px) {
+                margin: 0;
+            }
+            .title{
+                color: var(--bs-gray-900);
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 1.333333333333333;
+                @media (min-width:575px) {
+                    font-size: 24px;
+                }  
+            }
+        }
+        .deals-timer{
+            display: flex;
+            align-items: center;
+            @media (max-width:575px) {
+                flex-direction: column;
+            }
+            &__content{
+                margin-right: 12px;
+                @media (max-width:575px) {
+                    margin: 8px 0;
+                }
+                .title{
+                    color: var(--bs-gray-900);
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+            .timer-block{
+                border-radius: 2px;
+                background: var(--bs-warning-300);
+                padding: 6px 12px;
+                display: inline-flex;
+                align-items: center;
+                .single-timer{
+                    &:not(&:last-child){
+                        margin-right: 16px;
+                    }
+                    .timer-title-block{
+                        span{
+                        color: var(--bs-gray-900);
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 24px;  
+                       } 
+                    }
+                }
+            }
+        }
+    }
+    &__top-button{
+        @media (max-width:768px) {
+            margin-top: 15px;
+        }
+        .btn-text{
+            position: relative;
+            padding: 8px 0;
+           display: flex;
+           align-items: center;
+           color: var(--bs-secondary-500);
+           svg{
+            margin-left: 8px;
+           } 
+           &::before{
+            content: "";
+            position: absolute;
+            background: var(--bs-secondary-500);
+            height: 2px;
+            width: 0%;
+            transition: .3s;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            }
+            &:hover{
+                &::before{
+                    visibility: visible;
+                    opacity: 1;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &__product-area{
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        @media (min-width:1400px) {
+        flex-direction: row;
+        }
+        &--big-product{
+            display: none;
+            @media (min-width:768px) {
+                display: block;
+            }
+            .big-product-card-01{
+                @media (max-width:1400px) {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    .card-image{
+                        margin: 0;
+                        margin-right: 10px;
+                    }
+                    .card-body{
+                        padding: 0;
+                        margin-right: 10px;
+                    }
+                } 
+            }
+            @media (min-width:1400px) {
+                width: 328px;
+            }
+        }
+        &--small-product{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            @media (min-width:380px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            @media (min-width:768px) {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .card-product {
+                @media (max-width:380px) {
+                    margin: 0 30px;
+                    margin-bottom: 24px;
+                    text-align: center;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
